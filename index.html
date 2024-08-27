@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <html lang="en">
 <head>
     <meta charset="UTF-8"> 
@@ -216,17 +217,17 @@
                 <p>Get In Touch</p>
             </div>
             <div class="contact">
-                <form name="submitToGoogleSheet" action="submit_form.php" method="POST">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="message" placeholder="Your Message" required></textarea>
-                    <input type="submit" value="Send Message" class="submit">
+                <form id="contact-form">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit">Send Message</button>
                 </form>
                 <span id="msg"></span>
             </div>
         </div>
     </section>
-    
+    <script src="contact-form.js"></script>
 
     <footer class="footer">
         <p>&copy; 2024 Aryan Chaudhary. All rights reserved.</p>
