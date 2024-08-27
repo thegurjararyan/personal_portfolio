@@ -147,7 +147,12 @@ profile-photo .img{
   font-size: 14px;
 }
 .profile-text h1{
+  transition: all 0.5 ease;
   color: #fed700;
+  font-size: 2rem; 
+}
+.profile-text h1:hover{
+  color: yellow;
   font-size: 3rem; 
 }
 .profile-text p{
