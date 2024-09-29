@@ -20,4 +20,4 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     setTimeout(function() {
         document.getElementById('msg').textContent = '';
     }, 5000);
-});
+});  
